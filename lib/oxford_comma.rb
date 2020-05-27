@@ -7,6 +7,7 @@ def oxford_comma(array)
     array.join()
   elsif (array.size() == 1)
     array << " and #{word}"
+    array.join()
   else
     array << " and #{word}"
     array.join(", ")
