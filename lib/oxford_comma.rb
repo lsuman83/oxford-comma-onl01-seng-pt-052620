@@ -4,6 +4,7 @@ def oxford_comma(array)
   
   if (array.size() == 0)
     array << word
+    array.join()
   elsif (array.size() == 1)
     array << " and #{word}"
   else
