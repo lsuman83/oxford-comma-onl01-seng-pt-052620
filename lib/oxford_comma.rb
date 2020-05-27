@@ -2,9 +2,9 @@ def oxford_comma(array)
   
   word = array.pop
   
-  if (array.count == 1)
+  if (array.size() == 1)
     array << word
-  elsif (array.length == 2)
+  elsif (array.size() == 2)
     array << " and #{word}"
   else
     array << " and #{word}"
